@@ -1,6 +1,7 @@
-module.exports = {
+/** @type { import('@storybook/react-vite').StorybookConfig } */
+const config = {
   stories: [
-    '../src/**/*.stories.mdx',
+    '../src/**/*.mdx',
     '../src/**/*.stories.@(js|jsx|ts|tsx)',
     '../src/**/stories.@(js|jsx|ts|tsx)',
   ],
@@ -9,11 +10,12 @@ module.exports = {
     '@storybook/addon-essentials',
     '@storybook/addon-interactions',
   ],
-  framework: '@storybook/react',
-  core: {
-    builder: '@storybook/builder-vite',
+  framework: {
+    name: '@storybook/react-vite',
+    options: {},
   },
-  features: {
-    storyStoreV7: true,
+  docs: {
+    autodocs: 'tag',
   },
 };
+export default config;

@@ -1,10 +1,11 @@
-import * as Styled from './styles';
-import P from 'prop-types';
+import { Heading } from '../../components/Heading';
+import { H1 } from './styles';
 
-export const App = ({ children }) => {
-  return <Styled.Container>{children}</Styled.Container>;
-};
-
-App.propTypes = {
-  children: P.node.isRequired,
+export const App = () => {
+  return (
+    <>
+      <H1 color="white">ola</H1>
+      <Heading />
+    </>
+  );
 };

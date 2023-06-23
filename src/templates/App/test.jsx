@@ -1,8 +1,15 @@
-import { screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import { App } from '.';
-import { renderTheme } from '../../styles/render-theme';
+import { ThemeProvider } from 'styled-components';
+import { theme } from '../../styles/theme';
+
+export const renderTheme = (children) => {
+  return render(<ThemeProvider theme={theme}>{children}</ThemeProvider>);
+};
 
 it('should test', () => {
-  renderTheme(<App>Test</App>);
-  expect(screen.getByRole('heading', { name: 'Test' })).toMatchSnapshot();
+  const { debug } = renderTheme(<App />);
+  debug();
+  const element = screen.getByText('ola');
+  expect(element).toBeInTheDocument();
 });
