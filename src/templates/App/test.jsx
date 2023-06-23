@@ -1,11 +1,6 @@
-import { render, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import { App } from '.';
-import { ThemeProvider } from 'styled-components';
-import { theme } from '../../styles/theme';
-
-export const renderTheme = (children) => {
-  return render(<ThemeProvider theme={theme}>{children}</ThemeProvider>);
-};
+import { renderTheme } from '../../styles/render-theme';
 
 it('should test', () => {
   const { debug } = renderTheme(<App />);

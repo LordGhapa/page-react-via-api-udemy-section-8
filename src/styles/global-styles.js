@@ -6,6 +6,6 @@ export const GlobalStyles = createGlobalStyle`
  padding: 0;
 }
 body{
-  background-color: #fff;
+  background-color: gray;
 }
 `;
