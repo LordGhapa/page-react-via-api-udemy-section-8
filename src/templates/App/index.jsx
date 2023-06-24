@@ -5,7 +5,7 @@ export const App = () => {
   return (
     <>
       <H1 color="black">ola</H1>
-      <Heading />
+      <Heading title="title" />
     </>
   );
 };

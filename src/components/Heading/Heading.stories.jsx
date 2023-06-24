@@ -4,8 +4,12 @@ export default {
   title: 'Heading',
   component: Heading,
   tags: ['autodocs'],
+  args: {
+    title: 'Default',
+  },
   argTypes: {
     title: { type: 'string' },
+    colorDark: { type: 'boolean' },
   },
   parameters: {
     backgrounds: {
@@ -14,10 +18,19 @@ export default {
   },
 };
 
-export const Template = (args) => <Heading {...args} />;
+export const Light = (args) => <Heading {...args} />;
+export const Dark = (args) => <Heading {...args} />;
+Dark.args = {
+  title: 'texto esta claro',
+  colorDark: false,
+};
+Light.args = {
+  title: 'texto esta escuro',
+  colorDark: true,
+};
 
-export const Primary = {
-  args: {
-    title: 'Title',
+Light.parameters = {
+  backgrounds: {
+    default: 'light',
   },
 };
