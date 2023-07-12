@@ -5,8 +5,8 @@ import { theme } from '../../styles/theme';
 
 describe('<Heading>', () => {
   it('should render with default values', () => {
-    const { debug } = renderTheme(<Heading title={'texto'} />);
-    debug();
+    renderTheme(<Heading title={'texto'} />);
+
     const heading = screen.getByRole('heading', { name: 'texto' });
 
     expect(heading).toHaveStyle({
