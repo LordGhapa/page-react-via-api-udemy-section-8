@@ -18,7 +18,7 @@ const titleSize = {
 };
 
 const titleCase = (uppercase) => css`
-text-transform:${uppercase ? 'uppercase' : 'none'}
+text-transform:${uppercase ? 'uppercase' : 'none'};
 `;
 
 export const Title = styled.h1`

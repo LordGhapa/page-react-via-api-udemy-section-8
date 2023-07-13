@@ -1,26 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1689209758776" clover="3.2.0">
-  <project timestamp="1689209758776" name="All files">
-    <metrics statements="63" coveredstatements="63" conditionals="24" coveredconditionals="24" methods="33" coveredmethods="33" elements="120" coveredelements="120" complexity="0" loc="63" ncloc="63" packages="9" files="18" classes="18"/>
+<coverage generated="1689258101263" clover="3.2.0">
+  <project timestamp="1689258101263" name="All files">
+    <metrics statements="74" coveredstatements="74" conditionals="25" coveredconditionals="25" methods="38" coveredmethods="38" elements="137" coveredelements="137" complexity="0" loc="74" ncloc="74" packages="10" files="20" classes="20"/>
+    <package name="components.GridTwoColumn">
+      <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="5" coveredmethods="5"/>
+      <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\GridTwoColumn\index.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+      <file name="styles.js" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\GridTwoColumn\styles.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="components.Heading">
       <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8"/>
       <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\Heading\index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="12" count="18" type="stmt"/>
-        <line num="20" count="4" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="12" count="19" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
       </file>
       <file name="styles.js" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\Heading\styles.js">
         <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
         <line num="4" count="9" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="14" count="7" type="stmt"/>
-        <line num="20" count="18" type="stmt"/>
-        <line num="24" count="4" type="stmt"/>
-        <line num="25" count="18" type="stmt"/>
-        <line num="32" count="7" type="stmt"/>
+        <line num="14" count="8" type="stmt"/>
+        <line num="20" count="19" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="19" type="stmt"/>
+        <line num="32" count="8" type="stmt"/>
       </file>
     </package>
     <package name="components.LogoLink">
@@ -93,43 +113,43 @@
       <metrics statements="6" coveredstatements="6" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
       <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\SectionBackground\index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="5" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
       </file>
       <file name="styles.js" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\SectionBackground\styles.js">
         <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
       </file>
     </package>
     <package name="components.SectionContainer">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\SectionContainer\index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="8" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
       </file>
       <file name="styles.js" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\SectionContainer\styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="8" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="9" type="stmt"/>
       </file>
     </package>
     <package name="components.TextComponent">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\TextComponent\index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
       </file>
       <file name="styles.js" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\TextComponent\styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
       </file>
     </package>
     <package name="templates.App">
