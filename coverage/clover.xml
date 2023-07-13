@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1689284331924" clover="3.2.0">
-  <project timestamp="1689284331925" name="All files">
-    <metrics statements="103" coveredstatements="103" conditionals="29" coveredconditionals="29" methods="52" coveredmethods="52" elements="184" coveredelements="184" complexity="0" loc="103" ncloc="103" packages="13" files="26" classes="26"/>
+<coverage generated="1689287002928" clover="3.2.0">
+  <project timestamp="1689287002930" name="All files">
+    <metrics statements="108" coveredstatements="108" conditionals="29" coveredconditionals="29" methods="54" coveredmethods="54" elements="191" coveredelements="191" complexity="0" loc="108" ncloc="108" packages="14" files="28" classes="28"/>
+    <package name="components.Footer">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\Footer\index.jsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="styles.js" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\Footer\styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="components.GridContent">
       <metrics statements="7" coveredstatements="7" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
       <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\GridContent\index.jsx">
@@ -184,28 +198,28 @@
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\SectionContainer\index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="7" type="stmt"/>
-        <line num="5" count="15" type="stmt"/>
-        <line num="8" count="7" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="8" count="8" type="stmt"/>
       </file>
       <file name="styles.js" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\SectionContainer\styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="7" type="stmt"/>
-        <line num="5" count="15" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
       </file>
     </package>
     <package name="components.TextComponent">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\TextComponent\index.jsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="5" count="15" type="stmt"/>
-        <line num="8" count="5" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="16" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
       </file>
       <file name="styles.js" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\TextComponent\styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="5" type="stmt"/>
-        <line num="4" count="15" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="16" type="stmt"/>
       </file>
     </package>
     <package name="templates.App">

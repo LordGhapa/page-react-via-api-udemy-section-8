@@ -85,11 +85,11 @@ exports[`<GridTwoColumn /> should render grid two columns with mock 1`] = `
           >
             Grid Two Columns
           </h2>
-          <p
+          <div
             class="c6"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quia odio! Harum, doloribus. Libero, ratione! Natus, sequi iure delectus, a ducimus dolorem obcaecati dolore, ullam quibusdam dolores et odio exercitationem.
-          </p>
+          </div>
         </div>
         <div
           class=""

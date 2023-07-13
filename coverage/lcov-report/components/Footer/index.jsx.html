@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for components/TextComponent/index.jsx</title>
+    <title>Code coverage report for components/Footer/index.jsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">components/TextComponent</a> index.jsx</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">components/Footer</a> index.jsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -73,25 +73,49 @@
 <a name='L8'></a><a href='#L8'>8</a>
 <a name='L9'></a><a href='#L9'>9</a>
 <a name='L10'></a><a href='#L10'>10</a>
-<a name='L11'></a><a href='#L11'>11</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L11'></a><a href='#L11'>11</a>
+<a name='L12'></a><a href='#L12'>12</a>
+<a name='L13'></a><a href='#L13'>13</a>
+<a name='L14'></a><a href='#L14'>14</a>
+<a name='L15'></a><a href='#L15'>15</a>
+<a name='L16'></a><a href='#L16'>16</a>
+<a name='L17'></a><a href='#L17'>17</a>
+<a name='L18'></a><a href='#L18'>18</a>
+<a name='L19'></a><a href='#L19'>19</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">16x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import P from 'prop-types';
 import * as Styled from './styles';
+import { TextComponent } from '../TextComponent';
+import { SectionContainer } from '../SectionContainer';
 &nbsp;
-export const TextComponent = ({ children }) =&gt; {
-  return &lt;Styled.Container dangerouslySetInnerHTML={{ __html: children }} /&gt;;
+export const Footer = ({ html }) =&gt; {
+  return (
+    &lt;Styled.Container&gt;
+      &lt;SectionContainer&gt;
+        &lt;TextComponent&gt;{html}&lt;/TextComponent&gt;
+      &lt;/SectionContainer&gt;
+    &lt;/Styled.Container&gt;
+  );
 };
 &nbsp;
-TextComponent.propTypes = {
-  children: P.node.isRequired,
+Footer.propTypes = {
+  html: P.string.isRequired,
 };
 &nbsp;</pre></td></tr></table></pre>
 
