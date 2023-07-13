@@ -16,5 +16,16 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
 
+  margin: ${({ theme }) => theme.spacings.sizes.large} 0;
+}
+p{
+  margin: ${({ theme }) => theme.spacings.sizes.medium} 0;
+}
+ul,ol{
+  margin: ${({ theme }) => theme.spacings.sizes.medium};
+  padding: ${({ theme }) => theme.spacings.sizes.medium};
+}
+a{
+  color: ${({ theme }) => theme.colors.secondaryColor};
 }
 `;

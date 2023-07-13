@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for components/Heading/index.jsx</title>
+    <title>Code coverage report for components/GridContent/index.jsx</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">components/Heading</a> index.jsx</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">components/GridContent</a> index.jsx</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -32,7 +32,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>4/4</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
@@ -89,19 +89,14 @@
 <a name='L24'></a><a href='#L24'>24</a>
 <a name='L25'></a><a href='#L25'>25</a>
 <a name='L26'></a><a href='#L26'>26</a>
-<a name='L27'></a><a href='#L27'>27</a>
-<a name='L28'></a><a href='#L28'>28</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
+<a name='L27'></a><a href='#L27'>27</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">21x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -109,40 +104,42 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import P from 'prop-types';
-import { Title } from './styles';
+import * as Styled from './styles';
+import { Heading } from '../Heading';
+import { SectionBackground } from '../SectionBackground';
+import { TextComponent } from '../TextComponent';
 &nbsp;
-export const Heading = ({
-  children,
-  colorDark = true,
-  as = 'h1',
-  size = 'huge',
-  uppercase = false,
-  title,
-}) =&gt; {
+export const GridContent = ({ title, html, background = false }) =&gt; {
   return (
-    &lt;Title colorDark={colorDark} as={as} size={size} uppercase={uppercase}&gt;
-      {children}
-      {title}
-    &lt;/Title&gt;
+    &lt;SectionBackground background={background}&gt;
+      &lt;Styled.Container&gt;
+        &lt;Heading uppercase colorDark={!background}&gt;
+          {title}
+        &lt;/Heading&gt;
+        &lt;Styled.Html&gt;
+          &lt;TextComponent&gt;{html}&lt;/TextComponent&gt;
+        &lt;/Styled.Html&gt;
+      &lt;/Styled.Container&gt;
+    &lt;/SectionBackground&gt;
   );
 };
 &nbsp;
-Heading.propTypes = {
-  children: P.node,
-  colorDark: P.bool,
-  as: P.oneOf(['h1', 'h2', 'h3', 'h4', 'h5', 'h6']),
-  size: P.oneOf(['huge', 'large', 'medium', 'small']),
-  uppercase: P.bool,
-  title: P.string,
+GridContent.propTypes = {
+  title: P.string.isRequired,
+  html: P.string.isRequired,
+  background: P.bool,
 };
 &nbsp;</pre></td></tr></table></pre>
 
