@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1689287002928" clover="3.2.0">
-  <project timestamp="1689287002930" name="All files">
-    <metrics statements="108" coveredstatements="108" conditionals="29" coveredconditionals="29" methods="54" coveredmethods="54" elements="191" coveredelements="191" complexity="0" loc="108" ncloc="108" packages="14" files="28" classes="28"/>
+<coverage generated="1689291795058" clover="3.2.0">
+  <project timestamp="1689291795058" name="All files">
+    <metrics statements="112" coveredstatements="112" conditionals="29" coveredconditionals="29" methods="56" coveredmethods="56" elements="197" coveredelements="197" complexity="0" loc="112" ncloc="112" packages="15" files="30" classes="30"/>
     <package name="components.Footer">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\Footer\index.jsx">
@@ -11,6 +11,19 @@
         <line num="16" count="1" type="stmt"/>
       </file>
       <file name="styles.js" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\Footer\styles.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.GoTop">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.jsx" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\GoTop\index.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+      <file name="styles.js" path="D:\CURSO JAVA SCRIPT\udemy react\seção8\src\components\GoTop\styles.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
