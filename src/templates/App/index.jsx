@@ -1,11 +1,13 @@
-import { Heading } from '../../components/Heading';
-import { H1 } from './styles';
+import P from 'prop-types';
+// import * as Styled from './styles';
+import { Base } from '../Base';
+import { mockBase } from '../Base/Base.stories';
 
 export const App = () => {
-  return (
-    <>
-      <H1 color="black">ola</H1>
-      <Heading title="title" />
-    </>
-  );
+  return <Base {...mockBase} />;
 };
+
+App.propTypes = {
+  children: P.node.isRequired,
+};
+export default App;
