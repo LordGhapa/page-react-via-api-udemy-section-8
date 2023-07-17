@@ -13,6 +13,7 @@ module.exports = {
     '!<rootDir>/src/styles/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/**/*.stories.{js,jsx,ts,tsx}',
     '!<rootDir>/src/**/Button/**',
+    '!<rootDir>/src/**/templates/**',
   ],
   testEnvironment: 'jsdom',
   // testMatch: [

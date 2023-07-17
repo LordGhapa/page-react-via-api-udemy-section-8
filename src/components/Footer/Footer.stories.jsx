@@ -4,7 +4,7 @@ export default {
   title: 'Footer',
   component: Footer,
   args: {
-    html: 'feito por um ser qualquer',
+    footerHtml: 'feito por um ser qualquer',
   },
 };
 

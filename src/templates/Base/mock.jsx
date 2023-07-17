@@ -6,16 +6,18 @@ import { GridText } from '../../components/GridText';
 export const mockBase = {
   children: (
     <>
-      <GridText {...gridMock} />
       <GridText {...gridMock} background />
       <GridText {...gridMock} />
       <GridText {...gridMock} background />
+      <GridText {...gridMock} />
+      <GridText {...gridMock} background />
+      <GridText {...gridMock} />
     </>
   ),
   links: linksMock,
   logoData: {
-    text: 'logo',
+    text: 'Logo',
     link: '#',
   },
-  footerHtml: '<p>Sou um footer</p>',
+  footerHtml: '<p>Teste de footer</p>',
 };

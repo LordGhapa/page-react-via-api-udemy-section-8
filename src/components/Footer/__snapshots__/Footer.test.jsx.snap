@@ -41,7 +41,10 @@ exports[`<Footer /> should render 1`] = `
       <div
         class="c3 c4"
       >
-        sou o footer
+        <h1>
+          Olá
+        </h1>
+        , texto filho
       </div>
     </div>
   </footer>
