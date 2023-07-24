@@ -19,7 +19,16 @@ export const Container = styled.div`
     right: 0;
     z-index: 10;
     background-color: ${theme.colors.primaryColor};
-
+ h2{
+  position: absolute;
+      color: #fff;
+      font-size: 24px;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-wrap: wrap;
+    }
     &:before,
     &:after {
       content: '';
@@ -32,6 +41,7 @@ export const Container = styled.div`
       border-style: solid;
       border-radius: 50%;
     }
+
 
     &:after {
       width: 6rem;

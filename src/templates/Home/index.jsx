@@ -16,9 +16,9 @@ import { GridImage } from '../../components/GridImage';
 import { mockBase } from '../Base/mock';
 import { Base } from '../Base';
 import { PageNotFound } from '../PageNotFound';
-import { Loading } from '../Loading';
 
 import config from '../../config';
+import { Loading } from '../../components/Loading';
 
 function Home() {
   const [data, setData] = useState([]);
