@@ -8,8 +8,8 @@ color: inherit;
 display: flex;
 align-items: center;
 >img{
-  max-height: 3rem;
   width: 100%;
+  max-width: 180px;
 }
 
 `}
