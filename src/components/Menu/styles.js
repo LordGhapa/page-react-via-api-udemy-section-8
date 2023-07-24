@@ -9,7 +9,7 @@ visibility: visible;
 opacity: 1;
 `;
 
-export const Container = styled.div`
+export const Container = styled.header`
 ${({ theme, visible }) => css`
 position: fixed;
 z-index: 5;
