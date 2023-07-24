@@ -7,7 +7,7 @@ export const Footer = ({ footerHtml }) => {
   return (
     <Styled.Container>
       <SectionContainer>
-        <TextComponent>{footerHtml} texto filho</TextComponent>
+        <TextComponent>{footerHtml}</TextComponent>
       </SectionContainer>
     </Styled.Container>
   );
