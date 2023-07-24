@@ -18,7 +18,7 @@ import { Base } from '../Base';
 import { PageNotFound } from '../PageNotFound';
 
 import config from '../../config';
-import { Loading } from '../../components/Loading';
+import { Loading } from '../Loading';
 
 function Home() {
   const [data, setData] = useState([]);
