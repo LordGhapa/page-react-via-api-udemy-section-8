@@ -13,7 +13,6 @@ import { GridTwoColumn } from '../../components/GridTwoColumn';
 import { GridText } from '../../components/GridText';
 import { GridImage } from '../../components/GridImage';
 
-import { mockBase } from '../Base/mock';
 import { Base } from '../Base';
 import { PageNotFound } from '../PageNotFound';
 
@@ -33,8 +32,8 @@ function Home() {
         const data = await fetch(config.url);
         const json = await data.json();
 
-        const pageData = mapData([json.data[0].attributes]);
-        console.log([json.data[0].attributes]);
+        const pageData = mapData([json.data[1].attributes]);
+        // console.log(json);
         setData(pageData[0]);
       } catch (e) {
         setData(undefined);

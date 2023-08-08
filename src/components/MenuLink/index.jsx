@@ -1,8 +1,13 @@
+/* eslint-disable no-unused-vars */
 import P from 'prop-types';
 import * as Styled from './styles';
 
-export const MenuLink = ({ children, link, newtab = false }) => {
-  const target = newtab ? '_blank' : '_self';
+export const MenuLink = ({ children, link, newTab = false }) => {
+  const target = newTab ? '_blank' : '_self';
+
+  if (newTab) {
+    return;
+  }
   return (
     <Styled.Container href={link} target={target}>
       {children}
@@ -13,5 +18,5 @@ export const MenuLink = ({ children, link, newtab = false }) => {
 MenuLink.propTypes = {
   children: P.node.isRequired,
   link: P.string.isRequired,
-  newtab: P.bool,
+  newTab: P.bool,
 };
