@@ -7,11 +7,11 @@ export const Loading = () => {
         O carregamento pode acaba demorando pois uso uma api gratuita é demora
         um tempo para ela ligar
         <a
-          href="https://api-landing-page-udemy-curso.onrender.com/api/pages?populate=deep&pagination[pageSize]=1&sort[0]=id:desc"
+          href="https://site-generate-with-nextjs.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
-          Link para json da api
+          Link para versão feita com NextJS
         </a>
       </h2>
     </Styled.Container>
